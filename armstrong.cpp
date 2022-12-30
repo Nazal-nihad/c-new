@@ -21,11 +21,9 @@ int main()
 	for(j=1;k>0;j++)
 	{
 		b=k%10;
-		sum=sum+std::pow(b, i);
+		sum=sum+std::pow(b, i); //base b to the power i
 		k=(k-b)/10;
 	}
-	std::cout<<sum<<'\n';
-	std::cout<<i<<'\n';
 
 	if (sum == a) {
                 std::cout << a << " is an Armstrong number" << '\n';

@@ -13,7 +13,7 @@ int main()
 
 	for(i=1;i<=n-2;i++)
 	{
-		c=a+b;
+		c=a+b; //interchange a and b values and make a new c value
 		a=b;
 		b=c;		
 		std::cout<<c<<'\n';

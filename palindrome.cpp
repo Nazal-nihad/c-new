@@ -17,7 +17,7 @@ int main()
 
         for(j=1;j!=i;j++)
         {
-                sum = sum*10 + k%10;
+                sum = sum*10 + k%10; //reverse the digits
                 k=(k-k%10)/10;
         }
 
