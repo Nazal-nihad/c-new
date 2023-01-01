@@ -1,11 +1,9 @@
 //program to print the given no of lines as a pascals triangle
 
 #include <iostream>
-
 using namespace std;
 
 int ncr(int n); //ncr function declared
-
 int ncr(int n) //ncr function defined
 {
     int p = 1;
@@ -18,7 +16,6 @@ int ncr(int n) //ncr function defined
 }
 
 int factorial(int a,int b); //factorial function declared
-
 int factorial(int a,int b) //factorial function defined
 {
     int x=ncr(a);
@@ -30,8 +27,7 @@ int factorial(int a,int b) //factorial function defined
 }
 
 int main()
-{
-    
+{    
 int n,r,i;
 i=1;
 
@@ -39,7 +35,6 @@ cout<<"enter the number of lines: ";
 cin>>n;
 
 cout<<1<<'\n';
-
 while(i<=n-1) //looping starts for line 
 {
     r=0;
@@ -51,8 +46,6 @@ while(i<=n-1) //looping starts for line
     cout<<"\n";
     i++;
 }
-
 return 0;
-
 }
 
