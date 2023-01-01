@@ -1,3 +1,5 @@
+//program to find sum of integers in a given number
+
 #include <iostream>
 
 using namespace std;
@@ -10,7 +12,7 @@ int main()
     j=1;
     sum=0;
     
-    cout<<"enter the number \n";
+    cout<<"enter the number :";
     cin>>n;
     k=n;
 
@@ -23,7 +25,7 @@ int main()
     
     while(j<=i)
     {
-        sum=sum+k%10;
+        sum=sum+k%10; //separate the digits and add
         k=(k-k%10)/10;
 	j++;
     }

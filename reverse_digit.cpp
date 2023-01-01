@@ -1,3 +1,5 @@
+//program to reverse the given integer
+
 #include <iostream>
 int main()
 {
@@ -14,9 +16,9 @@ int main()
 	n=n/10;
 	}
 
-	for(j=1;j<=i;j++)
+	for(j=1;j<i;j++)
 	{
-		sum = sum*10 + k%10;
+		sum = sum*10 + k%10; //change units place from last to first
 		k=(k-k%10)/10;
 	}
 

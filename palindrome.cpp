@@ -1,10 +1,12 @@
+//program to check if the given number is palindrome number or not
+
 #include <iostream>
 int main()
 {
         int n,i,j,k,sum,b;
         sum =  0;
 
-        std::cout<<"enter the digit to reverse :";
+        std::cout<<"enter the number :";
         std::cin>>n;
 
         k=n;

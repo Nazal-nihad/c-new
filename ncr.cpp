@@ -1,3 +1,5 @@
+//program to find ncr of the given 2 numbers
+
 #include <iostream>
 
 int factorial(int n); //function for finding factorial

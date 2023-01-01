@@ -1,3 +1,5 @@
+//variation of pyramid pattern with spaces
+
 #include <iostream>
 
 int main() {

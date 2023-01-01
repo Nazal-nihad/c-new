@@ -1,9 +1,11 @@
+//program to print simple pyramid pattern
+
 #include <iostream>
 int main()
 {
 	int i,j,n;
 
-	std::cout<<"enter no of lines :\n";
+	std::cout<<"enter no of lines :";
 	std::cin>>n;
 
 	for(i=1;i<=n;i++)

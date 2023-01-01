@@ -1,3 +1,4 @@
+//program to check if a given number is armstrong number or not
 
 #include <iostream>
 #include <cmath>

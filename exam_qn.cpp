@@ -1,4 +1,4 @@
-// Online C++ compiler to run C++ program online
+//exam question of 1 and 0 alternate in row and line program 
 #include <iostream>
 
 int main() {

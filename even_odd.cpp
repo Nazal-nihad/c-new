@@ -1,30 +1,33 @@
+//program to check no of even and odd numbers from the given input
+
 #include <iostream>
 int main()
 {
-	int number,odd_count,even_count,i,a,b,c,d,e,f,g,h;
+	int number,odd_count,even_count,i,n;
 
 	odd_count =  even_count = 0;
 
 
-	std::cout<<"enter 8 digits :\n";
-	std::cin>>a>>b>>c>>d>>e>>f>>g>>h;
+	std::cout<<"enter no of input :";
+	std::cin>>i;
 
-	int number_list[8] = {a,b,c,d,e,f,g,h};
 
-	for(i=0;i<8;i++)
+	while (i>0)
 	{
-		number = number_list[i];
+		std::cout<<"enter no: ";
+		std::cin>>n;
 
-		if(number%2==0)
+		if (n%2==0)
 		{
-			even_count+=1;
+			even_count += 1;
 		}
 		else
 		{
 			odd_count+=1;
 		}
-
+		i--;
 	}
+	
 
 	std::cout<<even_count<<" even numbers and "<<odd_count<<"odd numbers \n";
 

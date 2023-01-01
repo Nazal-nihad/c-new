@@ -1,3 +1,5 @@
+//program to find the greatest digit from the given numbers (here 8 numbers)
+
 #include <iostream>
 
 int main()

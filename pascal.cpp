@@ -1,3 +1,5 @@
+//program to print the given no of lines as a pascals triangle
+
 #include <iostream>
 
 using namespace std;
