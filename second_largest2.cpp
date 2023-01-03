@@ -20,11 +20,11 @@ int main()
         if(i>largest_no)
         {
             second_largest = largest_no;
-            largest_no = n;
+            largest_no = i;
         }
-        else if(n<largest_no and n>second_largest)
+        else if(i<largest_no and i>second_largest)
         {
-            second_largest = n;
+            second_largest = i;
         }
 
         n--;
