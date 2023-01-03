@@ -7,17 +7,17 @@ int main()
 	int i,largest_no,second_largest,n;
 
     std::cout<<"enter how many numbers you want to check: ";
-    std::cin>>i;
+    std::cin>>n;
 
     largest_no = 0;
     second_largest = 0;
     
-    while (i>0)
+    while (n>0)
     {
         std::cout<<"enter no :";
-        std::cin>>n;
+        std::cin>>i;
 
-        if(n>largest_no)
+        if(i>largest_no)
         {
             second_largest = largest_no;
             largest_no = n;
@@ -27,7 +27,7 @@ int main()
             second_largest = n;
         }
 
-        i--;
+        n--;
     }
     
     std::cout<<"second largest no is :"<<second_largest<<'\n';
