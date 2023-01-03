@@ -1,4 +1,4 @@
-//program to print the given no of lines as a pascals triangle
+//program to print the given no of lines as a pascals triangle without space
 
 #include <iostream>
 using namespace std;
@@ -29,12 +29,11 @@ int factorial(int a,int b) //factorial function defined
 int main()
 {    
 int n,r,i;
-i=1;
+i=0;
 
 cout<<"enter the number of lines: ";
 cin>>n;
 
-cout<<1<<'\n';
 while(i<=n-1) //looping starts for line 
 {
     r=0;
@@ -48,4 +47,3 @@ while(i<=n-1) //looping starts for line
 }
 return 0;
 }
-
