@@ -23,7 +23,6 @@ int ncr(int num1,int num2)
 	int c = factorial((num1-num2));
 
 	int result = a/(b*c);
-	std::cout<<result;
 	return result;
 }
 
@@ -34,7 +33,7 @@ int main()
 	std::cout<<"enter the numbers to find ncr :\n"; 
 	std::cin>>number1>>number2;
 
-	ncr(number1,number2);
+	std::cout<<number1<<"C"<<number2<<" is "<<ncr(number1,number2);
 
 	return 0;
 }
