@@ -22,7 +22,7 @@ int main()
     
 int n,r;
 
-cout<<"enter the number to find the factorial :\n ";
+cout<<"enter the number to find the factorial : ";
 cin>>n;
 
 cout<<"factorial of "<<n<<" is "<<factorial(n)<<'\n';
