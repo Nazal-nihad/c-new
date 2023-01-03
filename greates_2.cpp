@@ -7,21 +7,21 @@ int main()
 	int i,largest_no,n;
 
     std::cout<<"enter how many numbers you want to check: ";
-    std::cin>>i;
+    std::cin>>n;
 
     largest_no = 0;
     
-    while (i>0)
+    while (n>0)
     {
         std::cout<<"enter no :";
-        std::cin>>n;
+        std::cin>>i;
 
-        if(n>largest_no)
+        if(i>largest_no)
         {
-            largest_no = n;
+            largest_no = i;
         }
 
-        i--;
+        n--;
     }
     
     std::cout<<"largest no is :"<<largest_no<<'\n';
