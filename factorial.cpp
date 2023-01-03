@@ -4,9 +4,9 @@
 
 using namespace std;
 
-int factorial(int n); //ncr function declared
+int factorial(int n); //factorial function declared
 
-int factorial(int n) //ncr function defined
+int factorial(int n) //factorial function defined
 {
     int p = 1;
     while(n>=1)
