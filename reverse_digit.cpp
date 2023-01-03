@@ -1,29 +1,21 @@
-//program to reverse the given integer
+//program to reverse the given number
 
 #include <iostream>
 int main()
 {
-	int n,i,j,k,sum;
+	int n, sum;
 	sum =  0;
 
 	std::cout<<"enter the digit to reverse :";
 	std::cin>>n;
 
-	k=n;
-
-	for(i=1;n>1;i++)
+	while (n > 0)
 	{
-	n=n/10;
-	}
-
-	for(j=1;j<i;j++)
-	{
-		sum = sum*10 + k%10; //change units place from last to first
-		k=(k-k%10)/10;
+	    sum = sum * 10 + n % 10;
+	    n = n / 10;
 	}
 
 	std::cout<<sum<<'\n';
 
 	return 0;
-
 }
