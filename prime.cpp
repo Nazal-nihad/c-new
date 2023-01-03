@@ -26,12 +26,12 @@ int main()
 		
 		if(i==0)
 		{
-			std::cout<<" not a prime number \n";
+			std::cout<<n<<" is not a prime number \n";
 			return 0;
 		}
 	}
 
-	std::cout<<"prime \n";
+	std::cout<<n<<" is a prime number \n";
 
 	return 0;
 
